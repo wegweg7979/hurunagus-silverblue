@@ -75,6 +75,8 @@ modules:
          - me.timschneeberger.jdsp4linux
          - org.inkscape.Inkscape
          - org.virt_manager.virt-manager
+         - io.missioncenter.MissionCenter
+         - io.github.kolunmi.Bazaar
          
       - scope: user # Also add Flathub user repo, but no user packages
 
