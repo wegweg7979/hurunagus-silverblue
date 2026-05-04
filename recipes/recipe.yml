@@ -77,6 +77,8 @@ modules:
          - org.virt_manager.virt-manager
          - io.missioncenter.MissionCenter
          - io.github.kolunmi.Bazaar
+         - com.mattjakeman.ExtensionManager
+         - com.github.tchx84.Flatseal
          
       - scope: user # Also add Flathub user repo, but no user packages
 
