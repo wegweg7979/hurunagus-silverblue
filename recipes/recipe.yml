@@ -1,13 +1,13 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: template
+name: hurunagus-silverblue
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 42 # latest is also supported if you want new updates ASAP
+image-version: 44 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -19,12 +19,12 @@ modules:
 
   - type: dnf
     repos:
-      copr:
-        - atim/starship
+      #copr:
+        #- atim/starship
     install:
       packages:
-        - micro
-        - starship
+        - btop
+        #- starship
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -38,8 +38,43 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-          - org.mozilla.firefox
-          - org.gnome.Loupe
+         - org.mozilla.firefox
+          - org.audacityteam.Audacity
+          - com.bitwig.BitwigStudio
+          - org.blender.Blender
+          - com.brave.Browser
+          - org.chromium.Chromium
+          - de.leopoldluley.Clapgrep
+          - org.gimp.GIMP
+          - org.kde.kdenlive
+          - com.obsproject.Studio
+          - re.sonny.Retro
+          - org.videolan.VLC
+          - org.libreoffice.LibreOffice
+          - org.pitivi.Pitivi
+          - fr.handbrake.ghb
+          - io.gitlab.theevilskeleton.Upscaler
+          - com.github.wwmm.easyeffects
+          - org.thentrythis.Samplebrain
+          - net.biniou.LeBiniou
+          - com.github.zocker_160.SyncThingy
+          - org.kde.kate
+          - org.kde.okular
+          - org.mixxx.Mixxx
+          - org._3fz.mtoc
+          - org.luanti.luanti
+          - org.vinegarhq.Sober
+          - net.supertuxkart.SuperTuxKart
+          - org.kde.kpat
+          - org.gnome.Chess
+          - org.gnome.Maps
+          - org.nongnu.lingot
+          - com.dec05eba.gpu_screen_recorder
+          - com.github.polymeilex.neothesia
+          - com.rafaelmardojai.Blanket
+          - me.timschneeberger.jdsp4linux
+          - org.inkscape.Inkscape
+          - org.virt_manager.virt-manager 
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
