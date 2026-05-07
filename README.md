@@ -1,4 +1,4 @@
-
+Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically a customized silverblue for my use only. Contains highly opinionated software list for all types of computing. ITS JUST SILVERBLUE PLUS SOME APPS
 
 To rebase an existing atomic Fedora installation to the latest build:
 
