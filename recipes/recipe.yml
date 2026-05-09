@@ -53,19 +53,17 @@ modules:
         - gnome-system-monitor
         - gnome-tour
       
-  - type: fonts
-fonts:
-  nerd-fonts:
-    - FiraCode # don't add spaces or "Nerd Font" suffix.
-    - Hack
-    - SourceCodePro
-    - Terminus
-    - JetBrainsMono
-    - NerdFontsSymbolsOnly
-  google-fonts:
-    - Roboto
-    - Open Sans 
-        
+    #- type: gnome-extensions
+    #install:
+      #- Blur my Shell 
+      #- Alphabetical App Grid
+      #- 779 # Clipboard Indicator
+      #- Focused Window D-Bus
+      #- Run or raise
+      #- Rounded Window Corners Reborn
+      #- Tiling Assistant
+         
+    
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
