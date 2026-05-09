@@ -44,9 +44,9 @@ modules:
         - gnome-software
         - gnome-system-monitor
       
-    - type: gnome-extensions
-    install:
-      - Blur my Shell 
+    #- type: gnome-extensions
+    #install:
+      #- Blur my Shell 
       #- Alphabetical App Grid
       #- 779 # Clipboard Indicator
       #- Focused Window D-Bus
