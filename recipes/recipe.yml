@@ -63,13 +63,6 @@ modules:
       #- Rounded Window Corners Reborn
       #- Tiling Assistant
          
-  - type: google-fonts
-       install:
-        - Open Sans
-        - Roboto
-        - Google Sans
-        - Inter
-        - Ubuntu Mono
     
   - type: default-flatpaks
     configurations:
