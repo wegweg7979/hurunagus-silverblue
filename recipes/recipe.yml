@@ -63,8 +63,8 @@ modules:
       #- Rounded Window Corners Reborn
       #- Tiling Assistant
          
- - type: fonts
-   fonts:
+  - type: fonts
+    fonts:
     nerd-fonts:
         - FiracCode
         - Hack
