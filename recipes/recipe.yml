@@ -43,11 +43,11 @@ modules:
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - gnome-software
         - gnome-system-monitor
-        
+      
   - type: gnome-extensions
         install:
-         - blur-my-shell@aunetx
-         - dash-to-panel@jderose9.github.com
+         - blur-my-shell #@aunetx
+         - dash-to-panel #@jderose9.github.com
          
   - type: default-flatpaks
     configurations:
