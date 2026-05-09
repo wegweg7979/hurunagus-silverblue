@@ -53,26 +53,19 @@ modules:
         - gnome-system-monitor
         - gnome-tour
       
-    #- type: gnome-extensions
-    #install:
-      #- Blur my Shell 
-      #- Alphabetical App Grid
-      #- 779 # Clipboard Indicator
-      #- Focused Window D-Bus
-      #- Run or raise
-      #- Rounded Window Corners Reborn
-      #- Tiling Assistant
-         
   - type: fonts
-    fonts:
-    nerd-fonts:
-        - FiracCode
-        - Hack
-        - JetBrainsMono
-    google-fonts:
-        - Roboto
-        - Ubuntu Mono
-        - Open Sans
+fonts:
+  nerd-fonts:
+    - FiraCode # don't add spaces or "Nerd Font" suffix.
+    - Hack
+    - SourceCodePro
+    - Terminus
+    - JetBrainsMono
+    - NerdFontsSymbolsOnly
+  google-fonts:
+    - Roboto
+    - Open Sans
+         
         
   - type: default-flatpaks
     configurations:
