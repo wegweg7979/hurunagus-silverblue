@@ -21,6 +21,12 @@ modules:
       VERSION_CODENAME: hurunagus-silverblue
       DEFAULT_HOSTNAME: hurunagas33
       
+  
+  - type: gnome-extensions
+    install:
+      - Blur my Shell
+      - Dash to Panel
+      
   - type: files
     files:
       - source: system
