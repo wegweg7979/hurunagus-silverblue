@@ -44,10 +44,15 @@ modules:
         - gnome-software
         - gnome-system-monitor
       
-  - type: gnome-extensions
-        install:
-         - blur-my-shell #@aunetx
-         - dash-to-panel #@jderose9.github.com
+    - type: gnome-extensions
+    install:
+      - Blur my Shell 
+      #- Alphabetical App Grid
+      #- 779 # Clipboard Indicator
+      #- Focused Window D-Bus
+      #- Run or raise
+      #- Rounded Window Corners Reborn
+      #- Tiling Assistant
          
   - type: default-flatpaks
     configurations:
