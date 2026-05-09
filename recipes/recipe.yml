@@ -64,7 +64,6 @@ modules:
       #- Tiling Assistant
          
   - type: fonts
-    fonts:
     google-fonts:
         - Open Sans
         - Roboto
