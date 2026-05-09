@@ -51,6 +51,7 @@ modules:
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - gnome-software
         - gnome-system-monitor
+        - gnome-tour
       
     #- type: gnome-extensions
     #install:
@@ -62,6 +63,15 @@ modules:
       #- Rounded Window Corners Reborn
       #- Tiling Assistant
          
+  - type: fonts
+    fonts:
+    google-fonts:
+        - Open Sans
+        - Roboto
+        - Google Sans
+        - Inter
+        - Ubuntu Mono
+    
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
