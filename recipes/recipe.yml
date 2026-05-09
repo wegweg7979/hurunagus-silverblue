@@ -26,6 +26,8 @@ modules:
     install:
       - Blur my Shell
       - Dash to Panel
+      - GSConnect
+      - Logo Menu
       
   - type: files
     files:
