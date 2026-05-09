@@ -64,8 +64,7 @@ fonts:
     - NerdFontsSymbolsOnly
   google-fonts:
     - Roboto
-    - Open Sans
-         
+    - Open Sans 
         
   - type: default-flatpaks
     configurations:
