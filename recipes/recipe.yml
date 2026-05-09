@@ -37,7 +37,7 @@ modules:
   - type: dnf
     repos:
       copr:
-        - atim/starship
+        #- atim/starship
     install:
       packages:
         - btop
