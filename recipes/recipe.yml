@@ -63,7 +63,8 @@ modules:
       #- Rounded Window Corners Reborn
       #- Tiling Assistant
          
-  - type: fonts
+  - type: google-fonts
+       install:
         - Open Sans
         - Roboto
         - Google Sans
