@@ -63,7 +63,17 @@ modules:
       #- Rounded Window Corners Reborn
       #- Tiling Assistant
          
-    
+  -type: fonts
+  fonts:
+    nerd-fonts:
+        - FiracCode
+        - Hack
+        - JetBrainsMono
+    google-fonts:
+        - Roboto
+        - Ubuntu Mono
+        - Open Sans
+        
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
