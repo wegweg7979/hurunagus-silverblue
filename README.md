@@ -1,3 +1,6 @@
+<img width="402" height="426" alt="542900251-a3d3f06c-29eb-40a7-a096-213a3418af8e" src="https://github.com/user-attachments/assets/9fd35c36-06b1-4b77-8160-c663de0a53a9" />
+
+
 Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically a customized silverblue for my use only. Contains highly opinionated software list for all types of computing. ITS JUST SILVERBLUE PLUS SOME APPS
 
 To rebase an existing atomic Fedora installation to the latest build:
