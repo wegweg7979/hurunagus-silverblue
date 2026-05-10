@@ -53,9 +53,6 @@ modules:
         - gnome-software
         - gnome-system-monitor
         - gnome-tour
-
-
-      type: gschema-overrides
       
         
     #- type: gnome-extensions
@@ -69,6 +66,8 @@ modules:
       #- Tiling Assistant
          
     
+  - type: gschema-overrides
+  
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
