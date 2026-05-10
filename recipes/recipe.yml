@@ -53,7 +53,12 @@ modules:
         - gnome-software
         - gnome-system-monitor
         - gnome-tour
-      
+
+
+      type: gschema-overrides
+      include:
+        - zz0-fizzyblue.gschema.override
+        
     #- type: gnome-extensions
     #install:
       #- Blur my Shell 
