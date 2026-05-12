@@ -68,6 +68,13 @@ modules:
     
   - type: gschema-overrides
   
+  # Cachyos kernel
+  - type: custom-kernel
+    source: local
+    kernel: cachyos
+    initramfs: true
+    nvidia: false
+    
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
@@ -81,6 +88,7 @@ modules:
          - com.brave.Browser
          - org.chromium.Chromium
          - de.leopoldluley.Clapgrep
+         - org.fedoraproject.MediaWriter
          - org.gimp.GIMP
          - org.kde.kdenlive
          - com.obsproject.Studio
