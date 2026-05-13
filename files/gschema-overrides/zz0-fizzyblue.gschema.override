@@ -6,3 +6,11 @@ color-scheme='prefer-dark'
 
 [org.gnome.desktop.wm.preferences]
 button-layout=':minimize,maximize,close'
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/hurunagus/leaf.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/hurunagus/leaf.jpg'
+picture-options='zoom'
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/hurnagus/leaf.jpg'
