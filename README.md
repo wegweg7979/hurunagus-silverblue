@@ -27,6 +27,6 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   sudo bluebuild generate-iso --iso-name hurunagus.iso image ghcr.io/wegweg7979/hurunagus-silverblue
   ```
-
+TO USE THE SYSTEM WITHOUT CACHYOS KERNEL AND SCX SCHEDULER, USE hurunagus-silverblue2:latest 
 
 
