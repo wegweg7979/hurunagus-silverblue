@@ -3,7 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: hurunagus-silverblue
 # description will be included in the image's metadata
-description: This is my personal OS image.
+description: Custom Silverblue with CachyOS kernel.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
@@ -37,12 +37,16 @@ modules:
   - type: dnf
     repos:
       copr:
-        - atim/starship
+        - bieszczaders/kernel-cachyos-addons
     install:
       packages:
         - btop
         - fastfetch
         - gnome-tweaks
+        - scx-scheds
+        - scx-tools
+        - scx-manager
+        - usbmuxd
         #- starship
     remove:
       packages:
@@ -119,11 +123,17 @@ modules:
          - me.timschneeberger.jdsp4linux
          - org.inkscape.Inkscape
          - org.virt_manager.virt-manager
+         - org.virt_manager.virt_manager.Extension.Qemu
          - io.missioncenter.MissionCenter
          - io.github.kolunmi.Bazaar
          - com.mattjakeman.ExtensionManager
          - com.github.tchx84.Flatseal
          - org.altlinux.Tuner
+         - org.freedesktop.Platform.ffmpeg-full
+         - org.freedesktop.Platform.codecs-extra
+         - io.github.shiftey.Desktop
+         - org.freedesktop.Platform.VAAPI.Intel
+         - org.freedesktop.Platform.openh264
          
       - scope: user # Also add Flathub user repo, but no user packages
 
