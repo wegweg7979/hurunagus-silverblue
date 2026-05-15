@@ -23,7 +23,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   systemctl reboot
   ```
-- To generate an installer .iso : 
+- To install on any system, generate an installer .iso : 
   ```
   sudo bluebuild generate-iso --iso-name hurunagus.iso image ghcr.io/wegweg7979/hurunagus-silverblue
   ```
