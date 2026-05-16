@@ -44,6 +44,7 @@ modules:
        # - scx-tools
        # - scx-manager
         - usbmuxd
+        - gnome-backgrounds-extras
         #- starship
     remove:
       packages:

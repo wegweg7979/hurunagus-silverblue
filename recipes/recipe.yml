@@ -43,6 +43,7 @@ modules:
         - btop
         - fastfetch
         - gnome-tweaks
+        - gnome-backgrounds-extras
         - scx-scheds
         - scx-tools
         - scx-manager
@@ -136,5 +137,9 @@ modules:
          - org.freedesktop.Platform.openh264
          
       - scope: user # Also add Flathub user repo, but no user packages
+
+  - type: script
+    scripts:
+         - bpfland.sh
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
