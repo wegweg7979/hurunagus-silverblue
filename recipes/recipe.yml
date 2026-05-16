@@ -48,6 +48,8 @@ modules:
         - scx-tools
         - scx-manager
         - usbmuxd
+        - adwaita-fonts-all
+        - mesa-libGLU
         #- starship
     remove:
       packages:
@@ -71,6 +73,15 @@ modules:
       #- Tiling Assistant
          
     
+  - type: dnf
+    repos:
+    files:
+    - https://brave-browser-rpm-nightly.s3.brave.com/brave-browser-nightly.repo
+    install:
+      packages:
+      - brave-origin-nightly
+
+
   - type: gschema-overrides
   
   # Cachyos kernel
