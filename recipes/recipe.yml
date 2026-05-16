@@ -63,6 +63,13 @@ modules:
       
 
 
+  - type: dnf
+    repos: https://brave-browser-rpm-nightly.s3.brave.com/brave-browser-nightly.repo
+      copr:
+    install:
+      packages:
+        - brave-origin-nightly
+
   - type: gschema-overrides
   
   # Cachyos kernel
