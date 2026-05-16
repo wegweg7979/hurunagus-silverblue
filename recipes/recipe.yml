@@ -65,6 +65,7 @@ modules:
 
   - type: dnf
     repos:
+      files:
         - https://brave-browser-rpm-nightly.s3.brave.com/brave-browser-nightly.repo
     install:
       packages:
