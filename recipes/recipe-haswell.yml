@@ -79,14 +79,18 @@ modules:
 
 
   - type: dnf
+    install:
+      packages:
+        - libva-intel-driver
+
+  - type: dnf
     repos:
       files:
         - https://brave-browser-rpm-nightly.s3.brave.com/brave-browser-nightly.repo
     install:
       packages:
         - brave-origin-nightly
-        - libva-intel-driver
-        - libvdpau-va-gl
+
 
   - type: gschema-overrides
   
