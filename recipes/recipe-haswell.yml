@@ -76,12 +76,6 @@ modules:
     install:
       - rpmfusion
 
-  - type: dnf
-    repos:
-    install:
-      packages:
-        - libva-intel-driver
-        - libvdpau-va-gl
 
 
   - type: dnf
@@ -91,6 +85,8 @@ modules:
     install:
       packages:
         - brave-origin-nightly
+        - libva-intel-driver
+        - libvdpau-va-gl
 
   - type: gschema-overrides
   
