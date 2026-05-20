@@ -1,7 +1,5 @@
 [![bluebuild build badge](https://github.com/wegweg7979/hurunagus-silverblue/actions/workflows/build.yml/badge.svg)](https://github.com/wegweg7979/hurunagus-silverblue/actions/workflows/build.yml)
 
-<img width="402" height="426" alt="542900251-a3d3f06c-29eb-40a7-a096-213a3418af8e" src="https://github.com/user-attachments/assets/9fd35c36-06b1-4b77-8160-c663de0a53a9" />
-
 <img width="1921" height="1080" alt="hurunagus" src="https://github.com/user-attachments/assets/cc34564f-4ace-42b8-84ea-efc807376bba" />
 
 
@@ -33,6 +31,6 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 To install the same system without the cachyOS kernel and scx scheduler use:  hurunagus-silverblue2:latest 
 
-
+<img width="402" height="426" alt="542900251-a3d3f06c-29eb-40a7-a096-213a3418af8e" src="https://github.com/user-attachments/assets/9fd35c36-06b1-4b77-8160-c663de0a53a9" />
 
 
