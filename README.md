@@ -1,6 +1,7 @@
 [![bluebuild build badge](https://github.com/wegweg7979/hurunagus-silverblue/actions/workflows/build.yml/badge.svg)](https://github.com/wegweg7979/hurunagus-silverblue/actions/workflows/build.yml)
 
-<img width="1921" height="1080" alt="hurunagus" src="https://github.com/user-attachments/assets/cc34564f-4ace-42b8-84ea-efc807376bba" />
+<img width="1921" height="1080" alt="hurunagus" src="https://github.com/user-attachments/assets/eb67128e-db0f-4b7c-b1b4-a93caeb378d8" />
+
 
 
 
