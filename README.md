@@ -5,6 +5,8 @@
 
 
 
+
+
 Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically a customized silverblue, with the cachyOS kernel (v3 compatible cpus only) pre-installed. SCX schedular BPFland enabled by default. Contains *MY* software choices for all types of computing. 
 
 To rebase an existing atomic Fedora installation to the latest build:
