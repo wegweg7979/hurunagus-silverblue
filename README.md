@@ -35,6 +35,6 @@ To rebase an existing atomic Fedora installation to the latest build:
 To install the same system without the cachyOS kernel and scx scheduler use:  hurunagus-silverblue2:latest 
 
 
-
+Obligitory screenshot:
 <img width="1921" height="1080" alt="hurunagus" src="https://github.com/user-attachments/assets/eb67128e-db0f-4b7c-b1b4-a93caeb378d8" />
 
