@@ -1,13 +1,14 @@
 [![bluebuild build badge](https://github.com/wegweg7979/hurunagus-silverblue/actions/workflows/build.yml/badge.svg)](https://github.com/wegweg7979/hurunagus-silverblue/actions/workflows/build.yml)
 
-<img width="1921" height="1080" alt="hurunagus" src="https://github.com/user-attachments/assets/cc34564f-4ace-42b8-84ea-efc807376bba" />
+<img width="402" height="426" alt="542900251-a3d3f06c-29eb-40a7-a096-213a3418af8e" src="https://github.com/user-attachments/assets/9fd35c36-06b1-4b77-8160-c663de0a53a9" />
 
 
 
 
 
 
-Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically a customized silverblue, with the cachyOS kernel (v3 compatible cpus only) pre-installed. SCX schedular BPFland enabled by default. Contains *MY* software choices for all types of computing. 
+
+Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically Fedora silverblue, with customisations including the cachyOS kernel (v3 compatible cpus only) pre-installed. SCX schedular BPFland enabled by default. Gnome 50 set up how i like it. Contains *MY* software choices for all types of computing. (These cannot be uninstalled by the user).
 
 To rebase an existing atomic Fedora installation to the latest build:
 
@@ -33,6 +34,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 To install the same system without the cachyOS kernel and scx scheduler use:  hurunagus-silverblue2:latest 
 
-<img width="402" height="426" alt="542900251-a3d3f06c-29eb-40a7-a096-213a3418af8e" src="https://github.com/user-attachments/assets/9fd35c36-06b1-4b77-8160-c663de0a53a9" />
 
+Obligitory screenshot:
+<img width="1921" height="1080" alt="hurunagus" src="https://github.com/user-attachments/assets/eb67128e-db0f-4b7c-b1b4-a93caeb378d8" />
 
