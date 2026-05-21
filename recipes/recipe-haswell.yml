@@ -63,8 +63,8 @@ modules:
         #- starship
     remove:
       packages:
-        - firefox
-        - firefox-langpacks
+        #- firefox
+        #- firefox-langpacks
         - gnome-software
         - gnome-system-monitor
         - gnome-tour
@@ -82,6 +82,9 @@ modules:
     install:
       packages:
         - libva-intel-driver
+        - vpl-gpu-rt
+        - libva-intel-hybrid-driver
+        - libvdpau-va-gl
 
   - type: dnf
     repos:
