@@ -82,9 +82,9 @@ modules:
     install:
       packages:
         - libva-intel-driver
-        - vpl-gpu-rt
+        #- vpl-gpu-rt
         - libva-intel-hybrid-driver
-        - libvdpau-va-gl
+        #- libvdpau-va-gl
 
   - type: dnf
     repos:
