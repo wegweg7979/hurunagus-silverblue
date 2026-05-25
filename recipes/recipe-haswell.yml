@@ -83,7 +83,7 @@ modules:
       packages:
         - libva-intel-driver
         #- vpl-gpu-rt
-        - libva-intel-hybrid-driver
+        #- libva-intel-hybrid-driver
         - broadcom-wl
         #- libvdpau-va-gl
 
