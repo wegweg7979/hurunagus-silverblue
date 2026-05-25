@@ -143,6 +143,7 @@ modules:
          - io.github.shiftey.Desktop
          - org.freedesktop.Platform.VAAPI.Intel
          - org.freedesktop.Platform.openh264
+         - be.alexandervanhee.gradia
          
       - scope: user # Also add Flathub user repo, but no user packages
 
