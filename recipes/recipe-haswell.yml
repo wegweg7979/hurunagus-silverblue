@@ -84,6 +84,7 @@ modules:
         - libva-intel-driver
         #- vpl-gpu-rt
         - libva-intel-hybrid-driver
+        - broadcom-wl
         #- libvdpau-va-gl
 
   - type: dnf
