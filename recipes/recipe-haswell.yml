@@ -17,7 +17,7 @@ modules:
       ID: hurunagus-silverblue-has
       ID_LIKE: fedora
       NAME: hurunagus-silverblue-has
-      PRETTY_NAME: hurunagus-silverblue haswell
+      PRETTY_NAME: hurunagus-silverblue-has
       VERSION_CODENAME: hurunagus-silverblue-has
       DEFAULT_HOSTNAME: hurunagas33
       
@@ -63,29 +63,13 @@ modules:
         #- starship
     remove:
       packages:
-        #- firefox
-        #- firefox-langpacks
+        - firefox
+        - firefox-langpacks
         - gnome-software
         - gnome-system-monitor
         - gnome-tour
-        - intel-media-driver
       
 
-
-  - type: bling
-    install:
-      - rpmfusion
-
-
-
-  - type: dnf
-    install:
-      packages:
-        - libva-intel-driver
-        #- vpl-gpu-rt
-        #- libva-intel-hybrid-driver
-        - broadcom-wl
-        #- libvdpau-va-gl
 
   - type: dnf
     repos:
@@ -94,7 +78,6 @@ modules:
     install:
       packages:
         - brave-origin-nightly
-
 
   - type: gschema-overrides
   
@@ -155,11 +138,8 @@ modules:
          - com.mattjakeman.ExtensionManager
          - com.github.tchx84.Flatseal
          - org.altlinux.Tuner
-         - org.freedesktop.Platform.ffmpeg-full
-         - org.freedesktop.Platform.codecs-extra
          - io.github.shiftey.Desktop
-         - org.freedesktop.Platform.VAAPI.Intel
-         - org.freedesktop.Platform.openh264
+         - be.alexandervanhee.gradia
          
       - scope: user # Also add Flathub user repo, but no user packages
 
