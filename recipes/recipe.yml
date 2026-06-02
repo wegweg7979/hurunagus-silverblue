@@ -141,7 +141,7 @@ modules:
          - io.github.shiftey.Desktop
          - be.alexandervanhee.gradia
          
-      - scope: user # Also add Flathub user repo, but no user packages
+      # - scope: user # Also add Flathub user repo, but no user packages
 
   - type: script
     scripts:
