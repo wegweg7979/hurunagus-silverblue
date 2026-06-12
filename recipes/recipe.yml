@@ -74,10 +74,10 @@ modules:
   - type: dnf
     repos:
       files:
-        - https://brave-browser-rpm-nightly.s3.brave.com/brave-browser-nightly.repo
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
       packages:
-        - brave-origin-nightly
+        - brave-origin
 
   - type: gschema-overrides
   
