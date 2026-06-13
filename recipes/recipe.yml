@@ -68,6 +68,7 @@ modules:
         - gnome-software
         - gnome-system-monitor
         - gnome-tour
+        - thunderbird
       
 
 
