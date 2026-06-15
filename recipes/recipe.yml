@@ -57,9 +57,10 @@ modules:
         - scx-scheds
         - scx-tools
         - scx-manager
-        - usbmuxd
+        #- usbmuxd
         - adwaita-fonts-all
-        - mesa-libGLU
+        - igt-gpu-tools
+        #- mesa-libGLU
         #- starship
     remove:
       packages:
@@ -68,7 +69,7 @@ modules:
         - gnome-software
         - gnome-system-monitor
         - gnome-tour
-        - thunderbird
+        #- thunderbird
       
 
 
