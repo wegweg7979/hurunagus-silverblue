@@ -60,6 +60,8 @@ modules:
         #- usbmuxd
         - adwaita-fonts-all
         - igt-gpu-tools
+        - rclone
+        - rclone-browser
         #- mesa-libGLU
         #- starship
     remove:
@@ -100,7 +102,7 @@ modules:
          - org.audacityteam.Audacity
          - com.bitwig.BitwigStudio
          - org.blender.Blender
-        # - com.brave.Browser
+         - com.brave.Browser
          - org.chromium.Chromium
          - de.leopoldluley.Clapgrep
          - org.fedoraproject.MediaWriter
