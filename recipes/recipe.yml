@@ -122,7 +122,7 @@ modules:
          - org.kde.kate
          - org.kde.okular
          - org.mixxx.Mixxx
-         - org._3fz.mtoc
+         #- org._3fz.mtoc
          - org.luanti.luanti
          - org.vinegarhq.Sober
          - net.supertuxkart.SuperTuxKart
