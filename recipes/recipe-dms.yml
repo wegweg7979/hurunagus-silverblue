@@ -62,12 +62,12 @@ modules:
         #- starship
     remove:
       packages:
-        #- firefox
-        #- firefox-langpacks
-        #- gnome-software
-        #- gnome-system-monitor
-        #- gnome-tour
-        #- thunderbird
+        - firefox
+        - firefox-langpacks
+        - gnome-software
+        - gnome-system-monitor
+        - gnome-tour
+        - thunderbird
       
 
 
