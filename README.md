@@ -8,7 +8,7 @@
 
 
 
-Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically Fedora silverblue, with customisations including the cachyOS kernel (v3 compatible cpus only) pre-installed. SCX schedular BPFland enabled by default. Gnome 50 set up how i like it. (Dash to panel, Tiling Shell) Contains *MY* software choices for all types of computing. (These cannot be uninstalled by the user). Dont use this- make your own! 
+Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically Fedora silverblue, with customisations including the cachyOS kernel (v3 compatible cpus only) pre-installed. SCX schedular BPFland enabled by default. Gnome 50 set up how i like it. (Dash to panel, Tiling Shell) Contains *MY* software choices for all types of computing. (These cannot be uninstalled by the user). Dont use this- make your own with bluebuild, it is not too difficult. 
 
 To rebase an existing atomic Fedora installation to the latest build:
 
