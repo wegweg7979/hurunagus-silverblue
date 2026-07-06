@@ -38,6 +38,7 @@ modules:
       - Dash to Panel
       #- GSConnect
       - Logo Menu
+      - Tiling Shell
       
   - type: files
     files:
