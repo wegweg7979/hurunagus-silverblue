@@ -28,7 +28,7 @@ jobs:
         recipe:
           # !! Add your recipes here
           - recipe.yml
-          #- recipe-no-cachy.yml
+          - recipe-dms
           #- recipe-haswell.yml
     steps:
       # the build is fully handled by the reusable github action
