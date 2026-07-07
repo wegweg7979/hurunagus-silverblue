@@ -79,13 +79,13 @@ modules:
       packages:
         - brave-origin
 
-  #- type: dnf
-   # repos:
-    #  copr:
-     #   - avengemedia/dms
-   # install:
-     # packages:
-       # - dms
+  - type: dnf
+    repos:
+      copr:
+        - avengemedia/dms
+    install:
+      packages:
+        - dms
 
   - type: gschema-overrides
   
