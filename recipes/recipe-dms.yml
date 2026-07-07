@@ -68,7 +68,7 @@ modules:
         - gnome-system-monitor
         - gnome-tour
         - thunderbird
-        - waybar
+        #- waybar
       
 
 
