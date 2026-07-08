@@ -8,7 +8,7 @@
 
 
 
-Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically Fedora silverblue, with customisations including the cachyOS kernel (v3 compatible cpus only) pre-installed. SCX schedular BPFland enabled by default. Gnome 50 set up how i like it. (Dash to panel, Tiling Shell) Contains *MY* software choices for all types of computing. (These cannot be uninstalled by the user). Dont use this- make your own with bluebuild, it is not too difficult. 
+Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically Fedora silverblue, with customisations including the cachyOS kernel (v3 compatible cpus only) pre-installed. SCX schedular BPFland enabled by default. WM Niri, with Dank Material Shell, also Gnome 50 set up how i like it. (Dash to panel, Tiling Shell) Contains *MY* software choices for all types of computing. (These cannot be uninstalled by the user). Dont use this- make your own with bluebuild, it is not too difficult. 
 
 To rebase an existing atomic Fedora installation to the latest build:
 
@@ -35,6 +35,11 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 
 
-Obligitory screenshot:
+Obligitory screenshots:
+Gnome 50
 <img width="1921" height="1080" alt="hurunagus" src="https://github.com/user-attachments/assets/eb67128e-db0f-4b7c-b1b4-a93caeb378d8" />
+Niri + Dank Material Shell
+<img width="1920" height="1080" alt="hurunagus-niri-dms" src="https://github.com/user-attachments/assets/cacf6e76-5c7d-4ac2-8cbb-dc48e83a9fd9" />
+
+
 
