@@ -39,6 +39,7 @@ Obligitory screenshots:
 Gnome 50
 <img width="1921" height="1080" alt="hurunagus" src="https://github.com/user-attachments/assets/eb67128e-db0f-4b7c-b1b4-a93caeb378d8" />
 Niri + Dank Material Shell
-<img width="1920" height="1080" alt="hurunagus-niri-dms" src="https://github.com/user-attachments/assets/a2536a9c-bec1-4578-95dd-b535fdc04c1a" />
+<img width="1920" height="1080" alt="hurunagus-niri-dms" src="https://github.com/user-attachments/assets/cacf6e76-5c7d-4ac2-8cbb-dc48e83a9fd9" />
+
 
 
