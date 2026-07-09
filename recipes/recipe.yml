@@ -97,7 +97,7 @@ modules:
       packages:
         - dms
         - dsearch
-        - dankcalender-bin
+        #- dankcalender-bin
 
 
   - type: gschema-overrides
