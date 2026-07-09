@@ -54,19 +54,20 @@ modules:
         - btop
         - fastfetch
         - gnome-tweaks
-        - gnome-backgrounds-extras
+        #- gnome-backgrounds-extras
         - scx-scheds
         - scx-tools
         - scx-manager
         - niri
         - foot
-        - dsearch
+        #- dankcalendar-bin
+        #- dsearch
         - khal
         #- usbmuxd
         - adwaita-fonts-all
         - igt-gpu-tools
-        - rclone
-        - rclone-browser
+        #- rclone
+        #- rclone-browser
         #- mesa-libGLU
         #- starship
     remove:
@@ -95,6 +96,8 @@ modules:
     install:
       packages:
         - dms
+        - dsearch
+        - dankcalender-bin
 
 
   - type: gschema-overrides
