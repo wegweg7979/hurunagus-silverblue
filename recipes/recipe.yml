@@ -59,6 +59,9 @@ modules:
         - scx-tools
         - scx-manager
         - niri
+        - foot
+        - dsearch
+        - khal
         #- usbmuxd
         - adwaita-fonts-all
         - igt-gpu-tools
