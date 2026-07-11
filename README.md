@@ -35,7 +35,6 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 
 
-Obligitory screenshots:
 Niri + Dank Material Shell
 <img width="1918" height="1077" alt="Screenshot from 2026-07-09 21-42-39" src="https://github.com/user-attachments/assets/6eb851fc-b459-4695-99fb-0d3323b71f09" />
 
