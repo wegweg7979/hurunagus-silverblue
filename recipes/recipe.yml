@@ -98,6 +98,15 @@ modules:
         - qt6ct-kde
         #- dankcalender-bin
 
+
+
+  - type: dnf
+    repos: rpmfusion
+      copr:
+    install:
+      packages:
+        - libva-intel-driver
+
   - type: gschema-overrides
   
   # Cachyos kernel
