@@ -96,7 +96,7 @@ modules:
         - dsearch
         - dms-greeter
         - qt6ct-kde
-        #- dankcalender-bin
+        - dankcalender-git
 
 
   - type: gschema-overrides
