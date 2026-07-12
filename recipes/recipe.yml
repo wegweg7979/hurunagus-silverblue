@@ -61,6 +61,7 @@ modules:
         - google-noto-sans-fonts
         - google-noto-serif-fonts
         - google-noto-sans-mono-fonts
+        - libva-intel-driver
         #- qt6ct-kde
         #- rclone
         #- rclone-browser
