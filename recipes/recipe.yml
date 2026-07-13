@@ -38,8 +38,8 @@ modules:
 
   - type: dnf
     repos:
-#      copr:
-#        - bieszczaders/kernel-cachyos-addons
+      copr:
+        - bieszczaders/kernel-cachyos-addons
     install:
       packages:
         - btop
