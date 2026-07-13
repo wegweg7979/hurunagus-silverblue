@@ -39,16 +39,16 @@ modules:
   - type: dnf
     repos:
       copr:
-        - bieszczaders/kernel-cachyos-addons
+        #- bieszczaders/kernel-cachyos-addons
     install:
       packages:
         - btop
         - fastfetch
         - gnome-tweaks
         #- gnome-backgrounds-extras
-        - scx-scheds
-        - scx-tools
-        - scx-manager
+        #- scx-scheds
+        #- scx-tools
+        #- scx-manager
         - niri
         - foot
         - greetd
@@ -163,9 +163,9 @@ modules:
          
       # - scope: user # Also add Flathub user repo, but no user packages
 
-  - type: script
-    scripts:
-         - bpfland.sh
+  #- type: script
+  #  scripts:
+  #       - bpfland.sh
 
   - type: os-release
     properties:
