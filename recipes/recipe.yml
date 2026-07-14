@@ -3,7 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: hurunagus-silverblue
 # description will be included in the image's metadata
-description: Custom Silverblue with CachyOS kernel.
+description: Custom Silverblue with Niri + DMS.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
@@ -66,8 +66,8 @@ modules:
         #- starship
     remove:
       packages:
-        - firefox
-        - firefox-langpacks
+        #- firefox
+        #- firefox-langpacks
         - gnome-software
         - gnome-system-monitor
         - gnome-tour
@@ -98,7 +98,7 @@ modules:
 
   - type: gschema-overrides
   
-   #Cachyos kernel
+   #Cachyos kernel --- ***currently disabled***
   #- type: custom-kernel
     #source: local
     #kernel: cachyos
@@ -112,51 +112,51 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
         # - org.mozilla.firefox
-         - org.audacityteam.Audacity
-         - com.bitwig.BitwigStudio
-         - org.blender.Blender
+         #- org.audacityteam.Audacity
+         #- com.bitwig.BitwigStudio
+         #- org.blender.Blender
          - com.brave.Browser
          - org.chromium.Chromium
-         - de.leopoldluley.Clapgrep
+         #- de.leopoldluley.Clapgrep
          - org.fedoraproject.MediaWriter
-         - org.gimp.GIMP
-         - org.kde.kdenlive
-         - com.obsproject.Studio
-         - re.sonny.Retro
+         #- org.gimp.GIMP
+         #- org.kde.kdenlive
+         #- com.obsproject.Studio
+         #- re.sonny.Retro
          - org.videolan.VLC
-         - org.libreoffice.LibreOffice
-         - org.pitivi.Pitivi
-         - fr.handbrake.ghb
-         - io.gitlab.theevilskeleton.Upscaler
+         #- org.libreoffice.LibreOffice
+         #- org.pitivi.Pitivi
+         #- fr.handbrake.ghb
+         #- io.gitlab.theevilskeleton.Upscaler
          - com.github.wwmm.easyeffects
-         - org.thentrythis.Samplebrain
-         - net.biniou.LeBiniou
-         - com.github.zocker_160.SyncThingy
+         #- org.thentrythis.Samplebrain
+         #- net.biniou.LeBiniou
+         #- com.github.zocker_160.SyncThingy
          - org.kde.kate
          - org.kde.okular
-         - org.mixxx.Mixxx
+         #- org.mixxx.Mixxx
          #- org._3fz.mtoc
-         - org.luanti.luanti
-         - org.vinegarhq.Sober
+         #- org.luanti.luanti
+         #- org.vinegarhq.Sober
          - net.supertuxkart.SuperTuxKart
          - org.kde.kpat
          - org.gnome.Chess
          - org.gnome.Maps
          - org.nongnu.lingot
          - com.dec05eba.gpu_screen_recorder
-         - com.github.polymeilex.neothesia
-         - com.rafaelmardojai.Blanket
-         - me.timschneeberger.jdsp4linux
-         - org.inkscape.Inkscape
+         #- com.github.polymeilex.neothesia
+         #- com.rafaelmardojai.Blanket
+         #- me.timschneeberger.jdsp4linux
+         #- org.inkscape.Inkscape
          - org.virt_manager.virt-manager
          - org.virt_manager.virt_manager.Extension.Qemu
          - io.missioncenter.MissionCenter
          - io.github.kolunmi.Bazaar
          - com.mattjakeman.ExtensionManager
          - com.github.tchx84.Flatseal
-         - org.altlinux.Tuner
+         #- org.altlinux.Tuner
          - io.github.shiftey.Desktop
-         - be.alexandervanhee.gradia
+         #- be.alexandervanhee.gradia
          
       # - scope: user # Also add Flathub user repo, but no user packages
 
