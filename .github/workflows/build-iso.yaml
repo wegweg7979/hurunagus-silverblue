@@ -1,0 +1,50 @@
+name: Build Installer ISO
+
+on:
+  workflow_run:
+    workflows: ["build"] # Triggers after your main BlueBuild image build workflow finishes
+    types:
+      - completed
+  workflow_dispatch: # Allows you to trigger it manually
+
+jobs:
+  build-iso:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Maximize Build Space
+        uses: easimon/maximize-build-space@master
+        with:
+          root-reserve-mb: 2048
+          swap-size-mb: 1024
+          remove-dotnet: 'true'
+          remove-android: 'true'
+          remove-haskell: 'true'
+
+      - name: Set Image Name Lowercase
+        id: prep
+        run: |
+          # Converts repository name to lowercase for ghcr.io paths
+          echo "image=ghcr.io/${{ github.repository_owner }}/hurunagus-silverblue:latest" | tr '[:upper:]' '[:lower:]' >> $GITHUB_OUTPUT
+
+      - name: Build ISO via bootc-image-builder
+        run: |
+          mkdir -p ./output
+          sudo podman run \
+            --rm \
+            --privileged \
+            --security-opt label=type:unconfined_t \
+            -v ./config.toml:/config.toml:ro \
+            -v ./output:/output \
+            -v /var/lib/containers/storage:/var/lib/containers/storage \
+            quay.io/centos-bootc/bootc-image-builder:latest \
+            --type anaconda-iso \
+            ${{ steps.prep.outputs.image }}
+
+      - name: Upload ISO Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: installer-iso
+          path: ./output/bootiso/install.iso
