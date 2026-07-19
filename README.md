@@ -8,7 +8,7 @@
 
 
 
-Declarative, Atomic, immutable linux system. Built from atomic fedora, specifically Fedora silverblue, with customisations including WM Niri, with Dank Material Shell, also Gnome 50 set up how i like it. Dont use this- make your own with bluebuild, it is not too difficult.
+Declarative, Atomic, immutable linux system. Fedora silverblue, from ublue, with customisations including WM Niri, with Dank Material Shell, and Gnome 50 with dash to panel and blur my shell. Dont use this- make your own with bluebuild, it is not too difficult.
 
 To rebase an existing atomic Fedora installation to the latest build:
 
