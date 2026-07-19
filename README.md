@@ -13,6 +13,7 @@ Declarative, Atomic, immutable linux system. Fedora silverblue, from ublue, with
 Reason to exist: making all my computers run identical systems, with silent auto updates and admin in one place, this repo. 
 Automatic builds once a week on a tuesday. 
 
+To install from scratch- installer iso can be found in the release section.
 To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
