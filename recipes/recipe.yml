@@ -29,7 +29,6 @@ modules:
       - Dash to Panel
       #- GSConnect
       - Logo Menu
-      #- Tiling Shell
       
   - type: files
     files:
@@ -58,16 +57,10 @@ modules:
         - google-noto-sans-fonts
         - google-noto-serif-fonts
         - google-noto-sans-mono-fonts
-        #- libva-intel-driver
-        #- qt6ct-kde
         #- rclone
         #- rclone-browser
-        #- mesa-libGLU
-        #- starship
     remove:
       packages:
-        #- firefox
-        #- firefox-langpacks
         - gnome-software
         - gnome-system-monitor
         - gnome-tour
@@ -113,15 +106,15 @@ modules:
         install: # system flatpaks we want all users to have and not remove
         # - org.mozilla.firefox
          #- org.audacityteam.Audacity
-         #- com.bitwig.BitwigStudio
-         #- org.blender.Blender
+         - com.bitwig.BitwigStudio
+         - org.blender.Blender
          - com.brave.Browser
          - org.chromium.Chromium
          #- de.leopoldluley.Clapgrep
          - org.fedoraproject.MediaWriter
-         #- org.gimp.GIMP
-         #- org.kde.kdenlive
-         #- com.obsproject.Studio
+         - org.gimp.GIMP
+         - org.kde.kdenlive
+         - com.obsproject.Studio
          #- re.sonny.Retro
          - org.videolan.VLC
          #- org.libreoffice.LibreOffice
@@ -134,7 +127,7 @@ modules:
          #- com.github.zocker_160.SyncThingy
          - org.kde.kate
          - org.kde.okular
-         #- org.mixxx.Mixxx
+         - org.mixxx.Mixxx
          #- org._3fz.mtoc
          #- org.luanti.luanti
          #- org.vinegarhq.Sober
@@ -142,8 +135,8 @@ modules:
          - org.kde.kpat
          - org.gnome.Chess
          - org.gnome.Maps
-         - org.nongnu.lingot
-         - com.dec05eba.gpu_screen_recorder
+         #- org.nongnu.lingot
+         #- com.dec05eba.gpu_screen_recorder
          #- com.github.polymeilex.neothesia
          #- com.rafaelmardojai.Blanket
          #- me.timschneeberger.jdsp4linux
