@@ -47,7 +47,7 @@ modules:
         #- scx-manager
         - niri
         - foot
-        - greetd
+        #- greetd
         #- dankcalendar-bin
         #- dsearch
         - khal
